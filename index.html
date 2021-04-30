@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo"><img src="images/logo.svg" class="logo_img"alt=""></div>
+    <div class="heading"><h1><span>We are launching</span> soon!</h1></div>
+    <p class="notfication-text">Subscribe and get notified</p>
+    <form action="#">
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="Your email address...">
+      <p class="error-text"><em>Please provide a valid email address</em></p>
+      <button type="submit" onclick="onSubmit()">Notify Me</button>
+    </form>
+    <div class="dashboard"><img src="images/illustration-dashboard.png" alt=""></div>
+
+    <div class="socials">
+      <div class="circle">
+        <i class="fab fa-facebook-f icon"></i>
+      </div>
+      <div class="circle">
+        <i class="fab fa-twitter icon"></i>
+      </div>
+      <div class="circle">
+        <i class="fab fa-instagram icon"></i>
+      </div>
+    </div>
+    <p class="copyright-text">&copy; Copyright Ping. All rights reserved.</p>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/samirhembrom" target="_blank">Samir</a>.
+    </p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
